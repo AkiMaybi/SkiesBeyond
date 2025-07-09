@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skiesbeyond",
+	"version": "${version}",
+	"name": "SkiesBeyond",
+	"description": "idk",
+	"authors": [
+		"Aki"
+	],
+	"contact": {
+		"homepage": "https://sesbianlex.net/",
+		"sources": "https://github.com/sesbianlex"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/skiesbeyond/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.akis.skiesbeyond.SkiesBeyond"
+		],
+		"fabric-datagen": [
+			"net.akis.skiesbeyond.SkiesBeyondDataGenerator"
+		],
+		"client": [
+			"net.akis.skiesbeyond.SkiesBeyondClient"
+		]
+	},
+	"mixins": [
+		"skiesbeyond.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
