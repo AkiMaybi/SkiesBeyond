@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -22,7 +23,9 @@ public class CharringBlock extends Block {
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         world.playSound(player, pos, SoundEvents.BLOCK_AMETHYST_CLUSTER_FALL, SoundCategory.BLOCKS, 3f, 1.5f);
-
+        if (player.getMainHandStack().getItem() == ModItems.SOLAR_ESSENCE) {
+            player.setStackInHand(Hand.MAIN_HAND, new ItemStack(ModItems.COMBUSTED_ESSENCE, player.getMainHandStack().getCount()));
+        }
         return ActionResult.SUCCESS;
 
     }
