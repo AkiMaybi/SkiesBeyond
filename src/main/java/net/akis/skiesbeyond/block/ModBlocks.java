@@ -1,6 +1,7 @@
 package net.akis.skiesbeyond.block;
 
 import net.akis.skiesbeyond.SkiesBeyond;
+import net.akis.skiesbeyond.block.custom.CharringBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -36,6 +37,14 @@ public class ModBlocks {
                             .strength(5f)
                             .requiresTool()
                             .sounds(BlockSoundGroup.BONE)));
+
+
+
+    public static final Block CHARRING_BLOCK = registerBlock("charring_block",
+            new CharringBlock(AbstractBlock.Settings.create()
+                    .strength(5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.BAMBOO_WOOD)));
 
 
     private static Block registerBlock(String name, Block block) {

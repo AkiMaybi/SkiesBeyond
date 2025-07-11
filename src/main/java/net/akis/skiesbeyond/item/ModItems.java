@@ -22,9 +22,7 @@ public class ModItems {
     public static void registerModItems() {
         SkiesBeyond.LOGGER.info("Registering " + SkiesBeyond.MOD_ID + " Items");
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(SOLAR_ESSENCE);
-            entries.add(COMBUSTED_ESSENCE);
-        });
+
+
     }
 }

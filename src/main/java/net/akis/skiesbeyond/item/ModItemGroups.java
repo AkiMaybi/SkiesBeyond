@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COMBUSTION_CLUSTER);
                         entries.add(ModBlocks.ASHEN_ORE);
                         entries.add(ModBlocks.BURNT_ASHEN_ORE);
+                        entries.add(ModItems.CHARRED_CHISEL);
+                        entries.add(ModBlocks.CHARRING_BLOCK);
                     }).build());
 
 
