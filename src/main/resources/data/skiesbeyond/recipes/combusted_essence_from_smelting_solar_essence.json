@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "combusted_essence",
+  "ingredient": {
+    "item": "skiesbeyond:solar_essence"
+  },
+  "result": {
+    "id": "skiesbeyond:combusted_essence"
+  }
+}

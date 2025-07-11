@@ -1,0 +1,12 @@
+{
+  "item.skiesbeyond.solar_essence": "Solar Essence",
+  "item.skiesbeyond.combusted_essence": "Combusted Essence",
+  "item.skiesbeyond.charred_chisel": "Charred Chisel",
+
+  "block.skiesbeyond.solar_cluster": "Solar Cluster",
+  "block.skiesbeyond.combustion_cluster": "Combustion Cluster",
+  "block.skiesbeyond.ashen_ore": "Ashen Ore",
+  "block.skiesbeyond.burnt_ashen_ore": "Burnt Ashen Ore",
+
+  "itemgroup.skiesbeyond.sunlight_set": "Sunlight Set"
+}

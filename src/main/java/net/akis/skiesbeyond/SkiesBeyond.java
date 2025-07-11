@@ -1,5 +1,8 @@
 package net.akis.skiesbeyond;
 
+import net.akis.skiesbeyond.block.ModBlocks;
+import net.akis.skiesbeyond.item.ModItemGroups;
+import net.akis.skiesbeyond.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class SkiesBeyond implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
