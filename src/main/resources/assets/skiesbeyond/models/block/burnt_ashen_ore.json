@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "skiesbeyond:block/burnt_ashen_ore"
-  }
-}

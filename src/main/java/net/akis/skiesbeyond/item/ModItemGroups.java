@@ -25,6 +25,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BURNT_ASHEN_ORE);
                         entries.add(ModItems.CHARRED_CHISEL);
                         entries.add(ModBlocks.CHARRING_BLOCK);
+                        entries.add(ModItems.EDIBLE_SUN);
+
+                        entries.add(ModBlocks.SOLAR_STAIRS);
+                        entries.add(ModBlocks.SOLAR_SLAB);
+                        entries.add(ModBlocks.SOLAR_BUTTON);
+                        entries.add(ModBlocks.SOLAR_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SOLAR_FENCE);
+                        entries.add(ModBlocks.SOLAR_FENCE_GATE);
+                        entries.add(ModBlocks.SOLAR_WALL);
+                        entries.add(ModBlocks.SOLAR_DOOR);
+                        entries.add(ModBlocks.SOLAR_TRAPDOOR);
+
                     }).build());
 
 

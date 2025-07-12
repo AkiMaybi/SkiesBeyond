@@ -2,6 +2,17 @@
   "item.skiesbeyond.solar_essence": "Solar Essence",
   "item.skiesbeyond.combusted_essence": "Combusted Essence",
   "item.skiesbeyond.charred_chisel": "Charred Chisel",
+  "item.skiesbeyond.edible_sun": "Edible Sun",
+
+  "item.skiesbeyond.solar_stairs": "Solar Stairs",
+  "item.skiesbeyond.solar_slab": "Solar Slab",
+  "item.skiesbeyond.solar_button": "Solar Button",
+  "item.skiesbeyond.solar_pressure_plate": "Solar Pressure Plate",
+  "item.skiesbeyond.solar_fence": "Solar Fence",
+  "item.skiesbeyond.solar_fence_gate": "Solar Fence Gate",
+  "item.skiesbeyond.solar_wall": "Solar Wall",
+  "item.skiesbeyond.solar_door": "Solar Door",
+  "item.skiesbeyond.solar_trapdoor": "Solar Trapdoor",
 
   "block.skiesbeyond.solar_cluster": "Solar Cluster",
   "block.skiesbeyond.combustion_cluster": "Combustion Cluster",
@@ -9,5 +20,10 @@
   "block.skiesbeyond.burnt_ashen_ore": "Burnt Ashen Ore",
   "block.skiesbeyond.charring_block": "Charring Block",
 
-  "itemgroup.skiesbeyond.sunlight_set": "Sunlight Set"
+  "itemgroup.skiesbeyond.sunlight_set": "Sunlight Set",
+
+  "tooltip.skiesbeyond.CharringBlock.1": "Returns essence to Solar",
+  "tooltip.skiesbeyond.charred_chisel.alt": "§cMORE INFO!!!§r",
+  "tooltip.skiesbeyond.charred_chisel.none": "Hold §bALT§r for more info",
+  "tooltip.skiesbeyond.edible_sun": "might give yellow hearts"
 }
