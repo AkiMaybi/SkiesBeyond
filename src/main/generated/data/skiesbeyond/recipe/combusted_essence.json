@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "skiesbeyond:combustion_cluster"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "skiesbeyond:combusted_essence"
+  }
+}

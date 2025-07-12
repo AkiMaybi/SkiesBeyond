@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "skiesbeyond:solar_essence"
+    },
+    "T": {
+      "item": "skiesbeyond:combusted_essence"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RTR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:edible_sun"
+  }
+}

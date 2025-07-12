@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "skiesbeyond:block/solar_pressure_plate"
+    },
+    "powered=true": {
+      "model": "skiesbeyond:block/solar_pressure_plate_down"
+    }
+  }
+}

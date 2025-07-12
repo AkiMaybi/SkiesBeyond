@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skiesbeyond:block/solar_slab"
+    },
+    "type=double": {
+      "model": "skiesbeyond:block/solar_cluster"
+    },
+    "type=top": {
+      "model": "skiesbeyond:block/solar_slab_top"
+    }
+  }
+}

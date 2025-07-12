@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "skiesbeyond:block/solar_cluster"
+  }
+}

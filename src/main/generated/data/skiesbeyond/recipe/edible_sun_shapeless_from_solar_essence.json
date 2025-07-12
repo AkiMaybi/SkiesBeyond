@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skiesbeyond:solar_essence"
+    },
+    {
+      "item": "skiesbeyond:solar_essence"
+    },
+    {
+      "item": "skiesbeyond:solar_essence"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:edible_sun"
+  }
+}
