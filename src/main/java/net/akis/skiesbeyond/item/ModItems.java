@@ -2,10 +2,9 @@ package net.akis.skiesbeyond.item;
 
 import net.akis.skiesbeyond.SkiesBeyond;
 import net.akis.skiesbeyond.item.custom.CharredChisel;
+import net.akis.skiesbeyond.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -26,6 +25,25 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+
+    public static final Item SOLAR_SWORD = registerItem("solar_sword",
+            new SwordItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SOLAR, 3, -2.4f))));
+    public static final Item SOLAR_PICKAXE = registerItem("solar_pickaxe",
+            new PickaxeItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SOLAR, 1, -2.8f))));
+    public static final Item SOLAR_SHOVEL = registerItem("solar_shovel",
+            new ShovelItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.SOLAR, 1.5f, -3.0f))));
+    public static final Item SOLAR_AXE = registerItem("solar_axe",
+            new AxeItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SOLAR, 6, -3.2f))));
+    public static final Item SOLAR_HOE = registerItem("solar_hoe",
+            new HoeItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SOLAR, 0, -3.0f))));
+    public static final Item SOLAR_HAMMER = registerItem("solar_hammer",
+            new HammerItem(ModToolMaterials.SOLAR, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SOLAR, 2, -1.4f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SkiesBeyond.MOD_ID, name), item);

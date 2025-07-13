@@ -1,6 +1,7 @@
 package net.akis.skiesbeyond.datagen;
 
 import net.akis.skiesbeyond.block.ModBlocks;
+import net.akis.skiesbeyond.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -33,5 +34,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOLAR_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.SOLAR_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_SOLAR_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

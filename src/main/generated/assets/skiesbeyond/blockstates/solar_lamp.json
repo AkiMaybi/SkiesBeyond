@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "skiesbeyond:block/solar_lamp"
+    },
+    "clicked=true": {
+      "model": "skiesbeyond:block/solar_lamp_on"
+    }
+  }
+}

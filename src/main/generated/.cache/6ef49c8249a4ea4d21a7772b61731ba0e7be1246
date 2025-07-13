@@ -1,7 +1,8 @@
-// 1.21.1	2025-07-12T02:13:03.2432041	SkiesBeyond/Tags for minecraft:block
+// 1.21.1	2025-07-12T19:36:12.3063792	SkiesBeyond/Tags for minecraft:block
 95ac8a4e92b74e5a8058e13f66922f332835f795 data\minecraft\tags\block\mineable\pickaxe.json
 3fa1f969f3e878dd708c0186f6fe177ef4f78dd0 data\minecraft\tags\block\fences.json
 7d4a5afe19c1a4fc79cfa4e4463208452a1dbcad data\minecraft\tags\block\walls.json
 a402ba6eb5b414517e4a4987e8dc0a23a95a4edf data\minecraft\tags\block\needs_diamond_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\skiesbeyond\tags\block\needs_solar_tool.json
 71f850c9119b8ca703e8c4f60b7edb95bde81c64 data\minecraft\tags\block\fence_gates.json
 185e9547afbd84c20591ea4547beb9a149cfd183 data\minecraft\tags\block\needs_iron_tool.json

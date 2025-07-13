@@ -2,6 +2,7 @@ package net.akis.skiesbeyond.block;
 
 import net.akis.skiesbeyond.SkiesBeyond;
 import net.akis.skiesbeyond.block.custom.CharringBlock;
+import net.akis.skiesbeyond.block.custom.SolarLamp;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -43,6 +44,10 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block SOLAR_LAMP = registerBlock("solar_lamp",
+            new SolarLamp(AbstractBlock.Settings.create().strength(1f).requiresTool().luminance(state -> state.get(SolarLamp.CLICKED) ? 15 : 0)));
+
+
 
 
     public static final Block SOLAR_STAIRS = registerBlock("solar_stairs",

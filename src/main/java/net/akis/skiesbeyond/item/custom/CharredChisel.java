@@ -1,6 +1,7 @@
 package net.akis.skiesbeyond.item.custom;
 
 import net.akis.skiesbeyond.block.ModBlocks;
+import net.akis.skiesbeyond.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
@@ -45,6 +46,9 @@ public class CharredChisel extends Item {
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS);
 
 
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
+
             }
         }
 
@@ -57,6 +61,10 @@ public class CharredChisel extends Item {
             tooltip.add(Text.translatable("tooltip.skiesbeyond.charred_chisel.alt"));
         } else {
             tooltip.add(Text.translatable("tooltip.skiesbeyond.charred_chisel.none"));
+        }
+
+        if (stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Changed at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);

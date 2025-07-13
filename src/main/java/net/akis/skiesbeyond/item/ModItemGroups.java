@@ -36,7 +36,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOLAR_WALL);
                         entries.add(ModBlocks.SOLAR_DOOR);
                         entries.add(ModBlocks.SOLAR_TRAPDOOR);
+                        entries.add(ModBlocks.SOLAR_LAMP);
 
+                        entries.add(ModItems.SOLAR_SWORD);
+                        entries.add(ModItems.SOLAR_PICKAXE);
+                        entries.add(ModItems.SOLAR_SHOVEL);
+                        entries.add(ModItems.SOLAR_AXE);
+                        entries.add(ModItems.SOLAR_HOE);
                     }).build());
 
 
