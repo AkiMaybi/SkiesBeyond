@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "skiesbeyond:block/solar_cluster"
+    "wall": "skiesbeyond:block/solar_bricks"
   }
 }

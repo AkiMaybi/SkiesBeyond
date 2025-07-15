@@ -1,0 +1,8 @@
+{
+  "asset_id": "skiesbeyond:sunlight",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.skiesbeyond.sunlight"
+  },
+  "template_item": "skiesbeyond:sunlight_armor_trim_smithing_template"
+}

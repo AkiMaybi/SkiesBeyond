@@ -1,0 +1,9 @@
+{
+  "asset_name": "solar",
+  "description": {
+    "color": "#E8D764",
+    "translate": "trim_material.skiesbeyond.solar"
+  },
+  "ingredient": "skiesbeyond:solar_essence",
+  "item_model_index": 0.6
+}

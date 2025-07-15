@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "skiesbeyond:block/solar_cluster",
-    "side": "skiesbeyond:block/solar_cluster",
-    "top": "skiesbeyond:block/solar_cluster"
+    "bottom": "skiesbeyond:block/solar_bricks",
+    "side": "skiesbeyond:block/solar_bricks",
+    "top": "skiesbeyond:block/solar_bricks"
   }
 }

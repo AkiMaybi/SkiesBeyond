@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "skiesbeyond:item/charred_chisel"
+    "layer0": "skiesbeyond:item/solar_horse_armor"
   }
 }

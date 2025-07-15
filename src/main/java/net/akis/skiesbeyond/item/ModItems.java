@@ -3,11 +3,13 @@ package net.akis.skiesbeyond.item;
 import net.akis.skiesbeyond.SkiesBeyond;
 import net.akis.skiesbeyond.item.custom.CharredChisel;
 import net.akis.skiesbeyond.item.custom.HammerItem;
+import net.akis.skiesbeyond.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -44,6 +46,34 @@ public class ModItems {
     public static final Item SOLAR_HAMMER = registerItem("solar_hammer",
             new HammerItem(ModToolMaterials.SOLAR, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SOLAR, 2, -1.4f))));
+
+    public static final Item SOLAR_BOW = registerItem("solar_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item SOLAR_HELMET = registerItem("solar_helmet",
+            new ModArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))));
+    public static final Item SOLAR_LEGGINGS = registerItem("solar_leggings",
+            new ModArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))));
+    public static final Item SOLAR_CHESTPLATE = registerItem("solar_chestplate",
+            new ModArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))));
+    public static final Item SOLAR_BOOTS = registerItem("solar_boots",
+            new ModArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))));
+
+    public static final Item SUNLIGHT_SMITHING_TEMPLATE = registerItem("sunlight_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(SkiesBeyond.MOD_ID, "sunlight"), FeatureFlags.VANILLA));
+
+    public static final Item SOLAR_HORSE_ARMOR = registerItem("solar_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
+
+
+
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(SkiesBeyond.MOD_ID, name), item);

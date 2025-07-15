@@ -36,6 +36,11 @@ public class ModBlocks {
                             .strength(5f)
                             .requiresTool()
                             .sounds(BlockSoundGroup.BONE)));
+    public static final Block SOLAR_BRICKS = registerBlock("solar_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 
 

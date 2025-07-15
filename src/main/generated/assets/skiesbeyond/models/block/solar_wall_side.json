@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side",
   "textures": {
-    "wall": "skiesbeyond:block/solar_cluster"
+    "wall": "skiesbeyond:block/solar_bricks"
   }
 }

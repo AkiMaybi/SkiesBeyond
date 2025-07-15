@@ -1,0 +1,6 @@
+{
+  "parent": "skiesbeyond:item/solar_bow",
+  "textures": {
+    "layer0": "skiesbeyond:item/solar_bow_pulling_1"
+  }
+}

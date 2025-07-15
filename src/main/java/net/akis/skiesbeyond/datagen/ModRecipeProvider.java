@@ -48,15 +48,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.SOLAR_ESSENCE), conditionsFromItem(ModItems.SOLAR_ESSENCE))
                 .offerTo(recipeExporter, Identifier.of(SkiesBeyond.MOD_ID, "edible_sun_shapeless_from_solar_essence"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.EDIBLE_SUN)
-                .pattern(" R ")
-                .pattern("RTR")
-                .pattern(" R ")
-                .input('R', ModItems.SOLAR_ESSENCE)
-                .input('T', ModItems.COMBUSTED_ESSENCE)
+                .pattern("KSK")
+                .pattern("SCS")
+                .pattern("KSK")
+                .input('S', ModItems.SOLAR_ESSENCE)
+                .input('C', ModItems.COMBUSTED_ESSENCE)
+                .input('K', Items.KELP)
                 .criterion(hasItem(ModItems.COMBUSTED_ESSENCE), conditionsFromItem(ModItems.SOLAR_ESSENCE))
                 .offerTo(recipeExporter, Identifier.of(SkiesBeyond.MOD_ID, "edible_sun_shaped"));
 
-        ;
+        offerSmithingTrimRecipe(recipeExporter, ModItems.SUNLIGHT_SMITHING_TEMPLATE, Identifier.of(SkiesBeyond.MOD_ID, "sunlight"));
 
     }
 }

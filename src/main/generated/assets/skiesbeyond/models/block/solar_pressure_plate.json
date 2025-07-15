@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "skiesbeyond:block/solar_cluster"
+    "texture": "skiesbeyond:block/solar_bricks"
   }
 }

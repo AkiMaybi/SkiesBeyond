@@ -4,7 +4,7 @@
       "model": "skiesbeyond:block/solar_slab"
     },
     "type=double": {
-      "model": "skiesbeyond:block/solar_cluster"
+      "model": "skiesbeyond:block/solar_bricks"
     },
     "type=top": {
       "model": "skiesbeyond:block/solar_slab_top"

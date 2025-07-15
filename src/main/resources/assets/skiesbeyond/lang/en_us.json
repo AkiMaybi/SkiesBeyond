@@ -18,6 +18,7 @@
   "block.skiesbeyond.combustion_cluster": "Combustion Cluster",
   "block.skiesbeyond.ashen_ore": "Ashen Ore",
   "block.skiesbeyond.burnt_ashen_ore": "Burnt Ashen Ore",
+  "block.skiesbeyond.solar_bricks": "Solar Bricks",
   "block.skiesbeyond.charring_block": "Charring Block",
 
   "itemgroup.skiesbeyond.sunlight_set": "Sunlight Set",
@@ -25,5 +26,35 @@
   "tooltip.skiesbeyond.CharringBlock.1": "Returns essence to Solar",
   "tooltip.skiesbeyond.charred_chisel.alt": "§cMORE INFO!!!§r",
   "tooltip.skiesbeyond.charred_chisel.none": "Hold §bALT§r for more info",
-  "tooltip.skiesbeyond.edible_sun": "might give yellow hearts"
+  "tooltip.skiesbeyond.edible_sun": "might give yellow hearts",
+  "tooltip.skiesbeyond.ModArmorItem.none": "Hold §bALT§r for Set Buffs",
+
+  "block.skiesbeyond.solar_stairs": "Solar Stairs",
+  "block.skiesbeyond.solar_slab": "Solar Slab",
+  "block.skiesbeyond.solar_button": "Solar Button",
+  "block.skiesbeyond.solar_pressure_plate": "Solar Pressure Plate",
+  "block.skiesbeyond.solar_fence": "Solar Fence",
+  "block.skiesbeyond.solar_fence_gate": "Solar Fence Gate",
+  "block.skiesbeyond.solar_wall": "Solar Wall",
+  "block.skiesbeyond.solar_door": "Solar Door",
+  "block.skiesbeyond.solar_trapdoor": "Solar Trapdoor",
+  "block.skiesbeyond.solar_lamp": "Solar Lamp",
+
+  "item.skiesbeyond.solar_sword": "Solar Sword",
+  "item.skiesbeyond.solar_pickaxe": "Solar Pickaxe",
+  "item.skiesbeyond.solar_shovel": "Solar Shovel",
+  "item.skiesbeyond.solar_axe": "Solar Axe",
+  "item.skiesbeyond.solar_hoe": "Solar Hoe",
+  "item.skiesbeyond.solar_hammer": "Solar Hammer",
+  "item.skiesbeyond.solar_boots": "Solar Boots",
+  "item.skiesbeyond.solar_leggings": "Solar Leggings",
+  "item.skiesbeyond.solar_chestplate": "Solar Chestplate",
+  "item.skiesbeyond.solar_helmet": "Solar Helmet",
+  "item.skiesbeyond.solar_bow": "Solar Bow",
+
+  "item.skiesbeyond.solar_horse_armor": "Solar Horse Armor",
+  "item.skiesbeyond.sunlight_armor_trim_smithing_template": "Sunlight Smithing Template",
+
+  "trim_material.skiesbeyond.solar": "Solar Material",
+  "trim_pattern.skiesbeyond.sunlight": "Sunlight Armor Pattern"
 }

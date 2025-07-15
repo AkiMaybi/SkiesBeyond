@@ -19,13 +19,13 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SOLAR_ESSENCE);
                         entries.add(ModItems.COMBUSTED_ESSENCE);
+                        entries.add(ModItems.CHARRED_CHISEL);
+                        entries.add(ModItems.EDIBLE_SUN);
                         entries.add(ModBlocks.SOLAR_CLUSTER);
                         entries.add(ModBlocks.COMBUSTION_CLUSTER);
                         entries.add(ModBlocks.ASHEN_ORE);
                         entries.add(ModBlocks.BURNT_ASHEN_ORE);
-                        entries.add(ModItems.CHARRED_CHISEL);
                         entries.add(ModBlocks.CHARRING_BLOCK);
-                        entries.add(ModItems.EDIBLE_SUN);
 
                         entries.add(ModBlocks.SOLAR_STAIRS);
                         entries.add(ModBlocks.SOLAR_SLAB);
@@ -43,6 +43,15 @@ public class ModItemGroups {
                         entries.add(ModItems.SOLAR_SHOVEL);
                         entries.add(ModItems.SOLAR_AXE);
                         entries.add(ModItems.SOLAR_HOE);
+                        entries.add(ModItems.SOLAR_HAMMER);
+                        entries.add(ModItems.SOLAR_BOW);
+
+                        entries.add(ModItems.SOLAR_BOOTS);
+                        entries.add(ModItems.SOLAR_LEGGINGS);
+                        entries.add(ModItems.SOLAR_CHESTPLATE);
+                        entries.add(ModItems.SOLAR_HELMET);
+                        entries.add(ModItems.SOLAR_HORSE_ARMOR);
+                        entries.add(ModItems.SUNLIGHT_SMITHING_TEMPLATE);
                     }).build());
 
 

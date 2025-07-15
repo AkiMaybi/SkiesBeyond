@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
-      "item": "skiesbeyond:solar_essence"
-    },
-    "T": {
+    "C": {
       "item": "skiesbeyond:combusted_essence"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "S": {
+      "item": "skiesbeyond:solar_essence"
     }
   },
   "pattern": [
-    " R ",
-    "RTR",
-    " R "
+    "KSK",
+    "SCS",
+    "KSK"
   ],
   "result": {
     "count": 1,

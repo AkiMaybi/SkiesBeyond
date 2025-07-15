@@ -29,5 +29,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SOLAR_AXE);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.SOLAR_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SOLAR_HELMET)
+                .add(ModItems.SOLAR_CHESTPLATE)
+                .add(ModItems.SOLAR_LEGGINGS)
+                .add(ModItems.SOLAR_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.SOLAR_ESSENCE);
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.SUNLIGHT_SMITHING_TEMPLATE);
     }
 }

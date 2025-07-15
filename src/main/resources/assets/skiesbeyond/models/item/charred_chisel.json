@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skiesbeyond:item/charred_chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "skiesbeyond:used": 1
+      },
+      "model": "skiesbeyond:item/charred_chisel_used"
+    }
+  ]
+}

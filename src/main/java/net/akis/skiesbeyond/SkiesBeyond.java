@@ -24,7 +24,7 @@ public class SkiesBeyond implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 
 
-		FuelRegistry.INSTANCE.add(ModItems.COMBUSTED_ESSENCE, 3200);
+		FuelRegistry.INSTANCE.add(ModItems.COMBUSTED_ESSENCE, 2000);
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}

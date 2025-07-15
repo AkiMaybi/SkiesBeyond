@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "skiesbeyond:block/solar_cluster"
+    "texture": "skiesbeyond:block/solar_bricks"
   }
 }
