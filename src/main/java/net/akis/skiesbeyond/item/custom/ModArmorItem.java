@@ -1,6 +1,7 @@
 package net.akis.skiesbeyond.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import net.akis.skiesbeyond.effect.ModEffects;
 import net.akis.skiesbeyond.item.ModArmorMaterials;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
@@ -23,7 +24,8 @@ public class ModArmorItem extends ArmorItem {
             (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>())
                     .put(ModArmorMaterials.SOLAR_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 4, false, false, false),
-                                    new StatusEffectInstance(StatusEffects.GLOWING, 1200, 0, false, false, true))).build();
+                                    new StatusEffectInstance(ModEffects.JUMP_FOR_THE_STARS, 1200, 0, false, false, true),
+                                    new StatusEffectInstance(StatusEffects.GLOWING, 1200, 0, false, false, false))).build();
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
         super(material, type, settings);
@@ -97,8 +99,9 @@ public class ModArmorItem extends ArmorItem {
         if (Screen.hasAltDown()) {
             if (getMaterial() == ModArmorMaterials.SOLAR_ARMOR_MATERIAL) {
                 tooltip.add(Text.literal("§7set buffs for §eSolar"));
-                tooltip.add(Text.literal("§7Absorption 5 every 60 seconds"));
-                tooltip.add(Text.literal("§7Makes you glow"));
+                tooltip.add(Text.literal("§7- Absorption 5 every 60 seconds"));
+                tooltip.add(Text.literal("§7- Gives the '§6Jump For The Stars§7' Effect"));
+                tooltip.add(Text.literal("§7- Makes you glow"));
             }
         } else {
             tooltip.add(Text.translatable("tooltip.skiesbeyond.ModArmorItem.none"));

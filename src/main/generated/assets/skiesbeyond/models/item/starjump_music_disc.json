@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skiesbeyond:item/starjump_music_disc"
+  }
+}

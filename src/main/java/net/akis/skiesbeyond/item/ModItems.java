@@ -1,10 +1,12 @@
 package net.akis.skiesbeyond.item;
 
 import net.akis.skiesbeyond.SkiesBeyond;
+import net.akis.skiesbeyond.block.ModBlocks;
 import net.akis.skiesbeyond.item.custom.CharredChisel;
 import net.akis.skiesbeyond.item.custom.HammerItem;
 import net.akis.skiesbeyond.item.custom.ModArmorItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.akis.skiesbeyond.sound.ModSounds;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -27,6 +29,11 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+
+    public static final Item STARFRUIT_SEEDS = registerItem("starfruit_seeds",
+            new AliasedBlockItem(ModBlocks.STARFRUIT_CROP, new Item.Settings()));
+    public static final Item STARFRUIT = registerItem("starfruit", new Item(new Item.Settings().food(ModFoodComponents.STARFRUIT).maxCount(32)));
+
 
     public static final Item SOLAR_SWORD = registerItem("solar_sword",
             new SwordItem(ModToolMaterials.SOLAR, new Item.Settings()
@@ -65,6 +72,9 @@ public class ModItems {
 
     public static final Item SUNLIGHT_SMITHING_TEMPLATE = registerItem("sunlight_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(SkiesBeyond.MOD_ID, "sunlight"), FeatureFlags.VANILLA));
+
+    public static final Item STARJUMP_MUSIC_DISC = registerItem("starjump_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.STARJUMP_KEY).maxCount(1)));
 
     public static final Item SOLAR_HORSE_ARMOR = registerItem("solar_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.SOLAR_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));

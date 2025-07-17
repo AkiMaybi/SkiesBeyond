@@ -1,21 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "R": {
-      "item": "skiesbeyond:solar_essence"
+    "B": {
+      "item": "skiesbeyond:solar_bricks"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    " RR",
-    " SR",
-    "S  "
+    "BSB",
+    "BSB"
   ],
   "result": {
     "count": 1,
-    "id": "skiesbeyond:charred_chisel"
+    "id": "skiesbeyond:solar_fence"
   }
 }

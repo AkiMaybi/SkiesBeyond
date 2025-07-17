@@ -8,4 +8,6 @@ public class ModFoodComponents {
     public static final FoodComponent EDIBLE_SUN = new FoodComponent.Builder().snack().nutrition(1).saturationModifier(0.25f).alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200), 0.5f).build();
+    public static final FoodComponent STARFRUIT = new FoodComponent.Builder().snack().nutrition(4).saturationModifier(2f).alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200), 1f).build();
 }

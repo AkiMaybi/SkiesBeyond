@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "skiesbeyond:combusted_essence"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CSC",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:solar_hammer"
+  }
+}

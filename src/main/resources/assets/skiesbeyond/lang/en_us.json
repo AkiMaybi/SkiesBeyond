@@ -55,6 +55,23 @@
   "item.skiesbeyond.solar_horse_armor": "Solar Horse Armor",
   "item.skiesbeyond.sunlight_armor_trim_smithing_template": "Sunlight Smithing Template",
 
+  "block.skiesbeyond.starfruit_crop": "Starfruit Crop",
+  "item.skiesbeyond.starfruit": "Starfruit",
+  "item.skiesbeyond.starfruit_seeds": "Starfruit Seeds",
+
   "trim_material.skiesbeyond.solar": "Solar Material",
-  "trim_pattern.skiesbeyond.sunlight": "Sunlight Armor Pattern"
+  "trim_pattern.skiesbeyond.sunlight": "Sunlight Armor Pattern",
+  "enchantment.skiesbeyond.strikedown": "Strikedown",
+
+  "item.skiesbeyond.starjump_music_disc": "Starjump Music Disc",
+  "item.skiesbeyond.starjump_music_disc.desc": "Lena Raine - Starjump",
+  "painting.skiesbeyond.lumity_1.title": "Lumity when i met you",
+  "painting.skiesbeyond.lumity_1.author": "-questionableartist-",
+  "painting.skiesbeyond.lumity_2.title": "Lumity Eepity",
+  "painting.skiesbeyond.lumity_2.author": "LittleCC0108",
+
+  "effect.skiesbeyond.jump_for_the_stars": "Jump For The Stars",
+  "item.minecraft.potion.effect.sky_leaping_potion": "Sky Leaping Potion",
+  "item.minecraft.splash_potion.effect.sky_leaping_potion": "Sky Leaping Potion",
+  "item.minecraft.lingering_potion.effect.sky_leaping_potion": "Sky Leaping Potion"
 }

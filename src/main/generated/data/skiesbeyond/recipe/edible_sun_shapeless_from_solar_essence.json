@@ -3,17 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "skiesbeyond:solar_essence"
-    },
-    {
-      "item": "skiesbeyond:solar_essence"
-    },
-    {
-      "item": "skiesbeyond:solar_essence"
+      "item": "skiesbeyond:starfruit"
     }
   ],
   "result": {
     "count": 1,
-    "id": "skiesbeyond:edible_sun"
+    "id": "skiesbeyond:starfruit_seeds"
   }
 }

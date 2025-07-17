@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_solar_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skiesbeyond:solar_cluster"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skiesbeyond:solar_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_solar_cluster"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skiesbeyond:solar_bricks"
+    ]
+  }
+}

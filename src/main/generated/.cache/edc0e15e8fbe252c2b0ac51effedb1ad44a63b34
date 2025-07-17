@@ -1,6 +1,7 @@
-// 1.21.1	2025-07-14T17:10:18.6483952	SkiesBeyond/Tags for minecraft:item
+// 1.21.1	2025-07-17T20:46:06.6159228	SkiesBeyond/Tags for minecraft:item
 4e1e6a4f9df24f8890128ba1ca3755603d1b68ea data\skiesbeyond\tags\item\transformable_items.json
 596930673e777638dc530c276d5b4e268f28a5bb data\minecraft\tags\item\shovels.json
+c5eb96d11132cbe640b105043d5412041b7f3637 data\minecraft\tags\item\enchantable\bow.json
 896efeb01820fea71beb742d8c7e9a22f83b5063 data\minecraft\tags\item\trimmable_armor.json
 2d7f9e329929feeb0002555440512295ee9d0221 data\minecraft\tags\item\trim_templates.json
 ab3b7a04a9d783f223f301b20c984a69680721df data\minecraft\tags\item\axes.json

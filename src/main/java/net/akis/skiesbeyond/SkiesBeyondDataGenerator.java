@@ -1,6 +1,7 @@
 package net.akis.skiesbeyond;
 
 import net.akis.skiesbeyond.datagen.*;
+import net.akis.skiesbeyond.enchantment.ModEnchantments;
 import net.akis.skiesbeyond.trim.ModTrimMaterials;
 import net.akis.skiesbeyond.trim.ModTrimPatterns;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -25,5 +26,6 @@ public class SkiesBeyondDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 	}
 }

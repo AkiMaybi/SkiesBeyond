@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-14T17:10:18.6503953	SkiesBeyond/Block Loot Tables
+// 1.21.1	2025-07-17T20:46:06.6169216	SkiesBeyond/Block Loot Tables
 44f2afb238f58d6d2f536429c10dfc5e05e69a6d data\skiesbeyond\loot_table\blocks\solar_stairs.json
 74ab338f5ef31227da57228f1214b38fb714046d data\skiesbeyond\loot_table\blocks\ashen_ore.json
 09059da5e9b2b4c7b87a26221640ce3029937291 data\skiesbeyond\loot_table\blocks\combustion_cluster.json
@@ -9,6 +9,7 @@
 f1b6604a3b067f8581002c8ca4a9051d45584b04 data\skiesbeyond\loot_table\blocks\solar_cluster.json
 fd562df7478a3711999259f2111828643ce26adb data\skiesbeyond\loot_table\blocks\solar_trapdoor.json
 8dba45269324f4210f5811124d38dc00df5b57a9 data\skiesbeyond\loot_table\blocks\solar_fence_gate.json
+36440097461991089861f80b1f702e2145e9e0fd data\skiesbeyond\loot_table\blocks\starfruit_crop.json
 28e00f502583df621f8620efcec4b7c74faf52f4 data\skiesbeyond\loot_table\blocks\charring_block.json
 c9410b1b60bb54e8b92e39b5da4a5d0c9541509a data\skiesbeyond\loot_table\blocks\solar_fence.json
 084b13cf59b5aa3410c6d9a8f58d4f3dbfc710c2 data\skiesbeyond\loot_table\blocks\solar_door.json

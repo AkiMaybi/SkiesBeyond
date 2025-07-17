@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_solar_essence": {
+    "has_combusted_essence": {
       "conditions": {
         "items": [
           {
-            "items": "skiesbeyond:solar_essence"
+            "items": "skiesbeyond:combusted_essence"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "skiesbeyond:charred_chisel"
+        "recipe": "skiesbeyond:solar_armor_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_solar_essence"
+      "has_combusted_essence"
     ]
   ],
   "rewards": {
     "recipes": [
-      "skiesbeyond:charred_chisel"
+      "skiesbeyond:solar_armor_chestplate"
     ]
   }
 }

@@ -3,8 +3,11 @@ package net.akis.skiesbeyond.block;
 import net.akis.skiesbeyond.SkiesBeyond;
 import net.akis.skiesbeyond.block.custom.CharringBlock;
 import net.akis.skiesbeyond.block.custom.SolarLamp;
+import net.akis.skiesbeyond.block.custom.StarFruitCropBlock;
+import net.akis.skiesbeyond.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -48,9 +51,12 @@ public class ModBlocks {
             new CharringBlock(AbstractBlock.Settings.create()
                     .strength(5f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.BAMBOO_WOOD)));
+                    .sounds(ModSounds.CHARRING_BLOCK_SOUNDS)));
     public static final Block SOLAR_LAMP = registerBlock("solar_lamp",
             new SolarLamp(AbstractBlock.Settings.create().strength(1f).requiresTool().luminance(state -> state.get(SolarLamp.CLICKED) ? 15 : 0)));
+
+    public static final Block STARFRUIT_CROP = registerBlockWithoutBlockItem("starfruit_crop",
+            new StarFruitCropBlock(AbstractBlock.Settings.create().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
 
 
 
@@ -89,6 +95,9 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(SkiesBeyond.MOD_ID, name), block);
+    }
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(SkiesBeyond.MOD_ID, name), block);
     }
 

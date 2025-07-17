@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "skiesbeyond:combusted_essence"
+    },
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "S": {
+      "item": "skiesbeyond:solar_essence"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "SLS",
+    "CSC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:solar_lamp"
+  }
+}

@@ -2,6 +2,7 @@ package net.akis.skiesbeyond.datagen;
 
 import net.akis.skiesbeyond.block.ModBlocks;
 import net.akis.skiesbeyond.block.custom.SolarLamp;
+import net.akis.skiesbeyond.block.custom.StarFruitCropBlock;
 import net.akis.skiesbeyond.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -40,6 +41,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.SOLAR_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.SOLAR_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(SolarLamp.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.STARFRUIT_CROP, StarFruitCropBlock.AGE, 0,1,2,3,4,5,6);
     }
 
     @Override
@@ -47,6 +50,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SOLAR_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COMBUSTED_ESSENCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EDIBLE_SUN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARFRUIT, Models.GENERATED);
         //itemModelGenerator.register(ModItems.CHARRED_CHISEL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.SOLAR_SWORD, Models.HANDHELD);
@@ -64,5 +68,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.SOLAR_HORSE_ARMOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUNLIGHT_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARJUMP_MUSIC_DISC, Models.GENERATED);
     }
 }

@@ -1,0 +1,16 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.skiesbeyond.chisel_use",
+    "sounds": [
+      "skiesbeyond:chisel_use"
+    ]
+  },
+  "starjump": {
+    "sounds": [
+      {
+        "name": "skiesbeyond:starjump",
+        "stream": true
+      }
+    ]
+  }
+}

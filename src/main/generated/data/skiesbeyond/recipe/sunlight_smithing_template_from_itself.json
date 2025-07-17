@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "skiesbeyond:sunlight_armor_trim_smithing_template"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "skiesbeyond:solar_cluster"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "DSD",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:sunlight_armor_trim_smithing_template"
+  }
+}

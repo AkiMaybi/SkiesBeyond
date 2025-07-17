@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_combusted_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skiesbeyond:combusted_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skiesbeyond:solar_armor_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_combusted_essence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skiesbeyond:solar_armor_boots"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "skiesbeyond:solar_essence"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " RR",
+    " SR",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "skiesbeyond:charred_chisel"
+  }
+}

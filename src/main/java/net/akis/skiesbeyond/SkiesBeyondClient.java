@@ -11,6 +11,7 @@ public class SkiesBeyondClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SOLAR_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SOLAR_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STARFRUIT_CROP, RenderLayer.getCutout());
 
         ModModelPredicates.registerModelPredicates();
     }

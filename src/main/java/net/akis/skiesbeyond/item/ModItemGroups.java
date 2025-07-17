@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BURNT_ASHEN_ORE);
                         entries.add(ModBlocks.CHARRING_BLOCK);
 
+                        entries.add(ModBlocks.SOLAR_BRICKS);
                         entries.add(ModBlocks.SOLAR_STAIRS);
                         entries.add(ModBlocks.SOLAR_SLAB);
                         entries.add(ModBlocks.SOLAR_BUTTON);
@@ -52,6 +53,9 @@ public class ModItemGroups {
                         entries.add(ModItems.SOLAR_HELMET);
                         entries.add(ModItems.SOLAR_HORSE_ARMOR);
                         entries.add(ModItems.SUNLIGHT_SMITHING_TEMPLATE);
+                        entries.add(ModItems.STARJUMP_MUSIC_DISC);
+                        entries.add(ModItems.STARFRUIT_SEEDS);
+                        entries.add(ModItems.STARFRUIT);
                     }).build());
 
 

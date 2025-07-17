@@ -2,6 +2,7 @@ package net.akis.skiesbeyond.item.custom;
 
 import net.akis.skiesbeyond.block.ModBlocks;
 import net.akis.skiesbeyond.component.ModDataComponentTypes;
+import net.akis.skiesbeyond.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
@@ -12,7 +13,6 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
@@ -43,10 +43,22 @@ public class CharredChisel extends Item {
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
-                world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS);
+                world.playSound(null, context.getBlockPos(), ModSounds.CHISEL_USE, SoundCategory.BLOCKS);
 
 
                 context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
+                new Thread(() -> {
+                    try {
+                        Thread.sleep(200);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                    context.getStack().remove(ModDataComponentTypes.COORDINATES);
+                }).start();
+
+
+
 
 
             }
@@ -54,6 +66,8 @@ public class CharredChisel extends Item {
 
         return ActionResult.SUCCESS;
     }
+
+
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

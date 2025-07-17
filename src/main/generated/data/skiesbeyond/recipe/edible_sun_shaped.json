@@ -6,7 +6,7 @@
       "item": "skiesbeyond:combusted_essence"
     },
     "K": {
-      "item": "minecraft:kelp"
+      "item": "skiesbeyond:starfruit"
     },
     "S": {
       "item": "skiesbeyond:solar_essence"
@@ -18,7 +18,7 @@
     "KSK"
   ],
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "skiesbeyond:edible_sun"
   }
 }
